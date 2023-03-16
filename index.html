@@ -1,65 +1,75 @@
-<Html>  
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <center> <img src="./LWIS.png" alt="LWIS profile" width="350" height="350"></center>
-<title> 
-<h2> Registration Page </h2>
-</title>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+       
 </head>
-<body bgcolor="White">  
-<br>  
+<body bgcolor="white"> 
+    <center>
+        <img src="./New folder/LWIS.gif" alt="LWIS logo" width="250" height="250">
+    </center>  
 <br>  
 <form>  
- <h2>Registration Form</h2> 
-<label> Firstname </label>         
-<input type="text" name="firstname" size="15"/> <br> <br>  
-<label> Middlename: </label>     
-<input type="text" name="middlename" size="15"/> <br> <br>  
-<label> Lastname: </label>         
-<input type="text" name="lastname" size="15"/> <br> <br>  
+    <h3>Application Form</h3> 
+        <label> Firstname </label>         
+        <input type="text" name="firstname" size="15"/> <br> <br>  
+        <label> Middlename: </label>     
+        <input type="text" name="middlename" size="15"/> <br> <br>  
+        <label> Lastname: </label>         
+        <input type="text" name="lastname" size="15"/> <br> <br>  
+        
+        <label> Plan : </label>   
+            <select>  
+                <option value="10">10MBps</option>  
+                <option value="15">15MBps</option>  
+                <option value="20">20MBps</option>  
+                <option value="25">25MBps</option>  
+                <option value="30">30MBps</option>  
+                <option value="35">35MBps</option>  
+                <option value="50">50MBps</option>
+                <option value="75">75MBps</option> 
+                <option value="100">100MBps</option> 
+            </select>  
   
-<label>   
-Plan :  
-</label>   
-<select>  
-<option value="Course">10MBps</option>  
-<option value="BCA">15MBps</option>  
-<option value="BBA">20MBps</option>  
-<option value="B.Tech">25MBps</option>  
-<option value="MBA">30MBps</option>  
-<option value="MCA">35MBps</option>  
-<option value="M.Tech">50MBps</option>  
-</select>  
-  
-<br>  
-<br>  
-<label>   
-Gender :  
-</label><br>  
-<input type="radio" name="male"/> Male <br>  
-<input type="radio" name="female"/> Female <br>  
-<input type="radio" name="other"/> Other  
+    <br>  
+    <br>  
+        <label> Gender : </label><br>  
+            <input type="radio" name="male"/> Male <br>  
+            <input type="radio" name="female"/> Female <br>  
+            <input type="radio" name="other"/> Other  
 <br>  
 <br>  
   
-<label>   
-Phone :  
-</label>  
-<input type="text" name="country code"  value="+63" size="2"/>   
-<input type="text" name="phone" size="10"/> <br> <br>  
-Address  
+        <label>Phone :</label>  
+            <input type="text" name="country code"  value="+63" size="1"/>   
+            <input type="text" name="phone" size="10"/> 
+<br> 
 <br>  
-<textarea cols="80" rows="5" value="address">  
-</textarea>  
-<br> <br>  
-Email:  
-<input type="email" id="email" name="email"/> <br>    
-<br> <br>  
-Password:  
-<input type="Password" id="pass" name="pass"> <br>   
-<br> <br>  
-Re-type password:  
-<input type="Password" id="repass" name="repass"> <br> <br>  
-<input type="button" value="Submit"/>  
-</form>  
-</body>  
+        <label> Location : </label>   
+            <select>
+                <option value="BellaVita">BellaVita</option>
+                <option value="Palat">Palat</option>
+                <option value="Tokwing">Tokwing</option>
+                <option value="Mitla">Mitla</option>
+                <option value="Carmencita">Carmencita</option>
+                <option value="SantoRosario">Santo Rosario</option>
+                <option value="Pabanlag">Pabanlag (old)</option>
+            </select>
+<br>
+<br>
+        <label> Blk & Lot / House Number</label>
+<br>
+            <textarea cols="40" rows="1" value="address"></textarea>
+<br> 
+<br>  
+        Email:  
+            <input type="email" id="email" name="email"/>
+<br>
+<br>
+            <input type="button" value="Submit"/>             
+    </form>   
+    </body>
 </html>
